@@ -1,0 +1,5 @@
+# This rule proxies requests from /analyzer to your other Netlify site.
+[[redirects]]
+  from = "/analyzer/*"
+  to = "https://mellifluous-kitten-17e328.netlify.app/:splat"
+  status = 200
