@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZOCO PWA Directory</title>
+    <meta name="theme-color" content="#00A99D"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="/images/icons/icon-192x192.png">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/zoco-logo.png" alt="ZOCO Logo" class="header-logo">
+            <div class="header-text">
+                <h1>ZOCO Projects</h1>
+                <p>A directory of our Progressive Web App projects.</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="project-grid">
+            
+            <div class="project-card">
+                <img src="images/project-analyzer-thumb.png" alt="YouTube SEO Analyzer Thumbnail">
+                <div class="card-content">
+                    <h2>YouTube SEO Analyzer</h2>
+                    <p>An analyzer for YouTube video metadata, transcripts, and competitive thumbnails.</p>
+                    <a href="https://analyzer.zoco.live" class="card-button">Visit App</a>
+                </div>
+            </div>
+
+            </div>
+    </main>
+
+   <footer>
+        <img src="images/tgg-logo.png" alt="The Gudorf Group Logo" class="footer-logo">
+        <p>Copyright 2025 The Gudorf Group, Inc.</p>
+    </footer>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js');
+            });
+        }
+    </script>
+</body>
+</html>
