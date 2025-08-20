@@ -82,6 +82,7 @@ main {
 
 .card-content h2 {
     margin-top: 0;
+    text-align: center;
 }
 
 .card-content p {
