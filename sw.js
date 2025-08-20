@@ -1,4 +1,4 @@
-const CACHE_NAME = 'zoco-directory-v1';
+const CACHE_NAME = 'zoco-directory-v0';
 const urlsToCache = [
     '/',
     '/index.html',
