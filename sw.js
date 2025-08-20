@@ -4,7 +4,8 @@ const urlsToCache = [
     '/index.html',
     '/style.css',
     '/images/zoco-logo.png',
-    '/images/project-analyzer-thumb.png.jpg'  // <-- Add this line
+    '/images/yt-analyzer.png', // Also adding the first project's image for completeness
+    '/images/church-connector.png'  // <-- Add this line for the new project
 ];
 
 self.addEventListener('install', event => {
