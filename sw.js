@@ -3,7 +3,8 @@ const urlsToCache = [
     '/',
     '/index.html',
     '/style.css',
-    '/images/zoco-logo.png'
+    '/images/zoco-logo.png',
+    '/images/project-analyzer-thumb.png.jpg'  // <-- Add this line
 ];
 
 self.addEventListener('install', event => {
