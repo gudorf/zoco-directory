@@ -6,8 +6,11 @@ const urlsToCache = [
     '/images/zoco-logo.png',
     '/images/yt-analyzer.png',
     '/images/church-connector.png',
-    '/images/zachgraphic.png', // <-- Add this line
-    '/images/htc.png'          // <-- And this line
+    '/images/zachgraphic.png',
+    '/images/htc.png',
+    '/images/yoto.png',      // <-- Add this line
+    '/images/fusion.png',    // <-- Add this line
+    '/images/guitar.png'     // <-- And this line
 ];
 
 self.addEventListener('install', event => {
