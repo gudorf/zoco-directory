@@ -1,4 +1,4 @@
-const CACHE_NAME = 'zoco-directory-v3'; // <-- Change this version number with each update
+const CACHE_NAME = 'zoco-directory-v5'; // <-- Change this version number with each update
 const urlsToCache = [
     '/',
     '/index.html',
@@ -11,7 +11,8 @@ const urlsToCache = [
     '/images/yoto.png',
     '/images/fusion.png',
     '/images/guitar.png',
-    '/images/yt-success.png' // <-- Add this line
+    '/images/yt-success.png',
+    '/images/lp.png' // <-- Add this line
 ];
 
 // Installs the service worker and caches the new files
